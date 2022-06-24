@@ -1,10 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
     <title>cooparative online Voting</title>
 <link href="css/user_styles.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="js/user.js"
      src="https://kit.fontawesome.com/b99e675b6e.js">
 </script>
+
 
 </head>
 <body bgcolor="tan">
@@ -15,7 +17,7 @@
         </div>
         <nav class="navbar">
             <div class="max-width">
-                <div class="logo"></div>
+                <div class="logo"><a href="#"><span>ONLINE VOTING</span></a></div>
                 <ul class="menu">
                     <li><a href="#Home" class="menu-btn">Home</a></li>
                     <li><a href="#presidential" class="menu-btn">Presidential</a></li>
@@ -45,9 +47,9 @@
 <td>
 <table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="tan">
 <tr>
-<td width="78">Username/Email</td>
+<td width="78">Email</td>
 <td width="6">:</td>
-<td width="294"><input name="myusername" type="text" id="myusername"></td>
+<td width="294"><input name="myEmail" type="email" id="myEmail"></td>
 </tr>
 <tr>
 <td>Password</td>
@@ -57,7 +59,7 @@
 <tr>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
-<td><input type="submit" name="Submit" value="continue"></td>
+
 </tr>
 </table>
 </td>
@@ -74,16 +76,20 @@
     
   
     <div class="Nominies">
+      <li>
+        <ul>
       <label class="option_item">
         <input type="checkbox" class="checkbox">
         <div class="option_inner ">
           <div class="tickmark"></div>
-          <div class="icon"><img src = "/images/Godwin.jpg"/></div>
+          <div class="icon"><img src = "/images/Godwin.jpg" /></div>
           <div class="name">Collins Brandon</div>
           <div class="column right">
                     <div class="text">BITC01/0422/2020</div>
                     <p>TWAWEZA STUDENTS PARTY</p>
           </div>
+        </ul>
+        <ul>
       </label>
       <label class="Nominies">
         <input type="checkbox" class="checkbox">
@@ -97,12 +103,14 @@
           </div>
 
         </div>
+      </ul>
+      <ul>
       </label>
       <label class="Nominies">
         <input type="checkbox" class="checkbox">
         <div class="option_inner ">
           <div class="tickmark"></div>
-          <div class="icon"><img src = "/images/2.jpeg"/></div>
+          <div class="icon"><img src = "/images/2.jpeg" ></div>
           <div class="name">Peryshidia Tole</div>
 
            <div class="column right">
@@ -110,20 +118,28 @@
                     <p>FLEX PARTY</p>
           </div>
         </div>
+      </ul>
+      <ul>
       </label>
       <label class="Nominies">
         <input type="checkbox" class="checkbox">
         <div class="option_inner ">
           <div class="tickmark"></div>
-          <div class="icon"><img src = "/images/3.jpeg"/></div>
+          <div class="icon"><img src = "/images/3.jpeg" /></div>
           <div class="name">Bosire N'ge</div>
            <div class="column right">
                     <div class="text">BBIT01/0748/2020</div>
                     <p> PARTY IMETULIA</p>
           </div>
         </div>
+      </ul>
+      
       </label>
+    </li>
+  
     </section>
+   
+
 
     <section class="Welfare" id="Welfare">
     
@@ -196,6 +212,7 @@
         
       
         <div class="Nominies">
+          
           <label class="option_item">
             <input type="checkbox" class="checkbox">
             <div class="option_inner ">
@@ -302,13 +319,15 @@
                             <div class="text">BBIT01/3637/2020</div>
                             <p> PARTY IMETULIA</p>
                   </div>
+                  
                 </div>
               </label>
+
               <section class="Submit" id="Submit">
 
               <h5>Submit now</h5>
-              <p1>KINDLY NOTE THAT ONCE SUBMITTED NO FUTHER CHANGES CAN BE DONE</p1>
               <button> SUBMIT</button>
+              <p id="demo"></p>
             </section>
 
             <section class="contact" id="contact">
@@ -356,6 +375,6 @@
 <div class="bottom_addr">&copy; Cooperative University Online Voting System. All Rights Reserved</div>
 </div>
 
-
+<script type="text/javascript" src="indeex.js"></script>
 </body>
 </html>
